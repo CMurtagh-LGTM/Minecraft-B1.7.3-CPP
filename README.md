@@ -9,7 +9,6 @@ A high-performance, cross-platform reimplementation of the Minecraft Beta 1.7.3 
 - **Low memory**: Arena allocators, object pools, minimal allocations
 - **Modern C++**: C++23 preferred, C++20 minimum, RAII throughout
 - **Beta 1.7.3 Protocol**: Full network protocol compatibility
-- **Extensible**: Plugin SDK (Step 3)
 
 ## Quick Start
 
@@ -90,7 +89,7 @@ cmake -DBUILD_TESTS=ON          # Enable tests (default: ON)
 cmake -DUSE_ASAN=ON             # Enable AddressSanitizer
 cmake -DUSE_UBSAN=ON            # Enable UndefinedBehaviorSanitizer
 cmake -DPROFILE_BUILD=ON        # Enable profiling
-cmake -DALLOW_UNSAFE_PLUGINS=ON # Disable plugin sandbox (Step 3)
+cmake -DALLOW_UNSAFE_PLUGINS=ON # Disable plugin sandbox
 ```
 
 ## Performance
